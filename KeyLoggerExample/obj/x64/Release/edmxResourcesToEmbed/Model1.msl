@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBExamenFinalModelStoreContainer" CdmEntityContainer="DBExamenFinalEntities1">
+    <EntitySetMapping Name="LogKeyLogger">
+      <EntityTypeMapping TypeName="DBExamenFinalModel.LogKeyLogger">
+        <MappingFragment StoreEntitySet="LogKeyLogger">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Cadena" ColumnName="Cadena" />
+          <ScalarProperty Name="Programa" ColumnName="Programa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
